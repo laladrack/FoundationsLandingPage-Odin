@@ -74,7 +74,7 @@ body{
 /*random*/
 .random{
     background-color: white;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 #random-title{
@@ -132,12 +132,12 @@ body{
     flex-basis: auto;
     background-color: #3882F6;
     color: white;
-    width: 100%;
+    width: 75%;
     max-height: 300px;
     padding: 20px 36px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     border-radius: 10px;
 }
 
@@ -156,4 +156,5 @@ body{
     text-align: center;
     color: white;
     text-decoration: none;
+    font-size: 10px;
 }
